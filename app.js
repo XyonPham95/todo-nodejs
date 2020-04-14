@@ -52,7 +52,7 @@ function toggleTodo(id) {
 
   for (let i = 0; i < todos.length; i++) {
     if (todos[i].id === id) {
-      todos[i].status = !todos[i].status;
+      todos[i].complete = !todos[i].complete;
     }
   }
 
